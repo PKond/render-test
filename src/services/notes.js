@@ -1,7 +1,7 @@
 // src/services/notes.js
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:3000/api/notes'; // Matches the custom server setup
+const baseUrl = '/api/notes'; // Matches the custom server setup
 
 // Get all notes
 const getAll = () => {

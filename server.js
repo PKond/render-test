@@ -4,6 +4,8 @@ import cors from "cors"; // Import CORS middleware
 const app = express();
 const PORT = 3000;
 
+app.use(express.static('dist'))
+
 // Middleware to parse JSON bodies
 app.use(express.json());
 app.use(cors()); // Use CORS middleware
